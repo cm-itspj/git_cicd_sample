@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'wwp_app.apps.WwpAppConfig',
+    'kco_app.apps.KcoAppConfig',
 ]
 
 MIDDLEWARE = [
