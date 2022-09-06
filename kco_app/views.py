@@ -1,5 +1,5 @@
-from django.http import HttpResponse
+# from django.http import HttpResponse
 from django.shortcuts import render
 
 def index(request):
-  return HttpResponse('<h1>Hello KhinChoOo App</h1>')
+  return render(request, 'kco_app/index.html')
