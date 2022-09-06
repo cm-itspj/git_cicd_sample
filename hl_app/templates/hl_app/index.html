@@ -1,12 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HL App</title>
-</head>
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>HL</title>  
+    {% load static %}  
+    <link href="{% static 'bootstrap-5.2.0-dist/css/bootstrap.min.css' %}" rel="stylesheet">  
+    <script src="{% static 'bootstrap-5.2.0-dist/js/bootstrap.min.js' %}"></script>  
+</head>  
 <body>
-  <h1>Hello HL App</h1>
-</body>
-</html>
+  <div class="container-sm align-center pt-5">
+    <div class="col d-flex justify-content-center">
+    <div class="card" style="width: 22rem;">
+      <h5 class="card-header text-center">HL App</h5>
+      <div class="card-body">
+        <form action="" method="post">  
+          <div class="form-group">  
+            <label for="email">Email address:</label>  
+            <input type="email" class="form-control" id="email">  
+          </div>  
+          <div class="form-group">  
+            <label for="pwd">Password:</label>  
+            <input type="password" class="form-control" id="pwd">  
+          </div>  
+          <div class="checkbox">  
+            <label><input type="checkbox"> Remember me</label>  
+          </div>  
+          <button type="submit" class="btn btn-primary">Login</button>  
+        </form>
+      </div>
+    </div>
+    </div>
+  </div>
+</body>  
+</html>  
