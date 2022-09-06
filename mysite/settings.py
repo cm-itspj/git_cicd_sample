@@ -41,6 +41,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hl_app.apps.HlAppConfig',
+    'matsuo_app.apps.MatsuoAppConfig',
+    'abiko_app.apps.AbikoAppConfig',
+    'wwp_app.apps.WwpAppConfig',
+    'kco_app.apps.KcoAppConfig',
 ]
 
 MIDDLEWARE = [
