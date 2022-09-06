@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'abiko_app.apps.AbikoAppConfig',
     'wwp_app.apps.WwpAppConfig',
     'kco_app.apps.KcoAppConfig',
 ]
